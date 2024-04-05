@@ -35,7 +35,7 @@ export default function HeadingMotion({ level = 2, children }: Props) {
 
   return (
     <motion.div
-      className="relative"
+      className="relative my-10"
       initial={{ opacity: 0 }}
       ref={ref}
       variants={variants}

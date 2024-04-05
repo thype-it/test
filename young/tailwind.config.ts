@@ -12,7 +12,7 @@ const config = {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
+      padding: "1rem",
       screens: {
         "2xl": "1400px",
       },
@@ -21,10 +21,6 @@ const config = {
       //Theme customization:
       colors: {
         primary: "#E20074",
-      },
-      backgroundImage: {
-        primary:
-          "radial-gradient(107.08% 85.59% at 86.3% 87.5%, rgba(0, 0, 0, 0.23) 0%, rgba(0, 0, 0, 0) 86.18%), radial-gradient(83.94% 83.94% at 26.39% 20.83%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0) 76.6%, rgba(255, 255, 255, 0) 100%)",
       },
 
       //UI libraries:

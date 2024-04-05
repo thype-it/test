@@ -3,6 +3,7 @@ import RateplanSection from "@/app/components/views/rateplan/RateplanSection";
 import StorySection from "@/app/components/views/story/StorySection";
 import { getRateplanData } from "@/services/young-api";
 import CustomerPlanSection from "./components/views/customerPlan/CustomerPlanSection";
+import TicketSection from "./components/views/tickets/TicketSection";
 
 export default async function Home() {
   const rateplans = await getRateplanData();
@@ -15,6 +16,7 @@ export default async function Home() {
       </div>
 
       <CustomerPlanSection />
+      <TicketSection />
 
       <div className="w-full">
         <StorySection stories={5} headline="benefity">
